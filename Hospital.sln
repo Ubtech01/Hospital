@@ -8,6 +8,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hospital.Models", "Hospital.Models\Hospital.Models.csproj", "{F02A84E0-EACA-4DE6-B501-75EEBEF4849F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hospital.ViewModels", "Hospital.ViewModels\Hospital.ViewModels.csproj", "{3B5AEB44-F97F-48AF-9615-A21EAAA09F26}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F02A84E0-EACA-4DE6-B501-75EEBEF4849F} = {F02A84E0-EACA-4DE6-B501-75EEBEF4849F}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hospital.Repositories", "Hospital.Repositories\Hospital.Repositories.csproj", "{FE06E605-109E-4907-8EBA-ACF6C6C0C408}"
 EndProject

@@ -17,4 +17,4 @@ namespace Hospital.Models
         public ApplicationUser Patient { get; set; }
     }
 }
-}
+

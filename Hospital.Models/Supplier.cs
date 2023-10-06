@@ -13,7 +13,7 @@ namespace Hospital.Models
         public string Phone { get; set; }
         public string Email { get; set; }
         public string Address { get; set; }
-        public ICollection<MedicineReport> MedicineReports { get; set; }
+        public ICollection<MedicineReport> MedicineReports { get; set; }                            
 
 
 
